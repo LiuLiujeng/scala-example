@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  app:
+    image: "phoebejeng/scala:0.1"
+    volumes:
+        - .:/app
+    build:
+      context: .
